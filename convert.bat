@@ -1,0 +1,10 @@
+c:\Python27\python.exe dae2mod.py bar.dae > bar.js
+c:\Python27\python.exe dae2mod.py disc1.dae > disc1.js
+c:\Python27\python.exe dae2mod.py disc2.dae > disc2.js
+c:\Python27\python.exe dae2mod.py disc3.dae > disc3.js
+c:\Python27\python.exe dae2mod.py disc4.dae > disc4.js
+c:\Python27\python.exe dae2mod.py disc5.dae > disc5.js
+c:\Python27\python.exe dae2mod.py floor.dae > floor.js
+c:\Python27\python.exe dae2mod.py hitbar.dae > hitbar.js
+c:\Python27\python.exe dae2mod.py bar2.dae > bar2.js
+c:\Python27\python.exe dae2mod.py bar3.dae > bar3.js

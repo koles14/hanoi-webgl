@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Towers of Hanoi</title>
+<style>
+body { background: #333 }
+p { position: absolute; z-index: 1; left: 50%; top: 10px; margin: 0 -10em;
+    color: #fff; text-shadow: 0 1px 1px #000; text-align: center }
+div { position: absolute; z-index: 1; right: 10px; bottom: 10px;
+    color: #ccc; text-shadow: 0 1px 1px #000; font-size: 11px }
+div strong { color: #fc0 }
+canvas { position: fixed; left: 0; top: 0; right: 0; bottom: 0 }
+.state0 .state1, .state1 .state0 { display: none }
+body.state1 { cursor: pointer !important }
+.state0 .state0 { color: #69c }
+.state1 .state1 { color: #6c6 }
+</style>
+<script src="App.js"></script>
+<script src="Game.js"></script>
+<script src="boot.js"></script>
+</head>
+<body class="state0">
+<p>빨간색 기둥에서 파란색 기둥으로 모두 옮기세요.<br>
+    <span class="state0">이동할 링을 선택하세요.</span>
+    <span class="state1">목표 장소를 선택하세요.</span></p>
+<div><strong>회전</strong> 마우스 오른쪽 버튼<br><strong>줌</strong> 마우스 휠</div>
+</div>
+<canvas></canvas>
+</body>
+</html>
